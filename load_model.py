@@ -78,10 +78,10 @@ def scoring(speaker_feat, test_feat):
     th = 0.5
     op=verify(score,th)
     if op == 1:
-        output = "Speaker Recognized"
+        output = "Speaker Recognized."
         return output;
     else:
-        output = "Speaker not Recognized"
+        output = "Speaker does not Recognized."
         return output;
 
 
@@ -89,7 +89,7 @@ def enrolment(id, audio_path):
     feat = feature_extraction(audio_path)
     model_save = 'enrolment/'+str(id)+".pth"
     torch.save(feat, model_save)
-    print("Speaker Enrolment is Successful.")
+    print("Speaker Enrolment Completed Successfully")
 
 def test(id, audio_path):
     feat = feature_extraction(audio_path)
