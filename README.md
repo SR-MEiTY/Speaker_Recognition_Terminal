@@ -19,7 +19,7 @@ The system is now ready for enrollment and verification.
 **A. Enrollement:**
 
   1. For enrolment, unique speaker ID and pre-recorded audio files in .wav format are necessary.
-     The sample excel sheet with unique speaker ID and corresponding .wav file path are given. The
+     The sample csv file named 'ids.csv' with unique speaker ID and corresponding .wav file path are given in 'enrolment' folder. The
      .wav files are stored in 'enrolment' folder.
      
   3. Open the enrolment.py in any editor and provide unique speaker ID and corresponding .wav file path
