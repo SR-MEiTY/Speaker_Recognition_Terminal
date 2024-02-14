@@ -49,7 +49,7 @@ The system is now ready for enrollment and verification.
   4. Perform speaker verification as follows 
        python verification.py
   
-  5. Once, the verification is finished, you will be able to see either 'Speaker Recognised Successfully' or 'Speaker Does not Recognised' message
+  5. Once, the verification is finished, you will be able to see either 'Speaker Recognised.' or 'Speaker does not Recognised' message
      on the terminal.
   
   6. Now close the terminal.
