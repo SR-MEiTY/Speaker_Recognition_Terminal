@@ -14,6 +14,8 @@
 
 **Speaker Enrolment and Verification**
 
+Download the trained model from the link provided and put it in the root folder, use the following link to download https://drive.google.com/file/d/109gOlv0FqV43eE7dr_1fpVIEFxtIqPy3/view?usp=drive_link.
+
 The system is now ready for enrollment and verification.
 
 **A. Enrollement:**
