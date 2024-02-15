@@ -21,6 +21,14 @@ The system is now ready for enrollment and verification.
   1. For enrolment, unique speaker ID and pre-recorded audio files in .wav format are necessary.
      The sample csv file named 'ids.csv' with unique speaker ID and corresponding .wav file path are given in 'enrolment' folder. The
      .wav files are stored in 'enrolment' folder.
+
+     **Note:** All the audio files used for the speaker enrolment should follow following format:
+     
+                 i. .wav file format
+
+                 ii. Sample Rate: 16kHz
+
+                 iii. Mono Channel
      
   3. Open the enrolment.py in any editor and provide unique speaker ID and corresponding .wav file path
      and close the file.
